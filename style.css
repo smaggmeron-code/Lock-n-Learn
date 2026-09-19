@@ -1,0 +1,23 @@
+:root {
+  --cream: #fdfbf7;
+  --ink: #2e2926;
+  --muted: #5c5652;
+  --teal: #38947d;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 2rem 1.25rem 4rem;
+  background: var(--cream);
+  color: var(--ink);
+  font: 1.05rem/1.5 system-ui, "PingFang TC", "Noto Sans TC", sans-serif;
+}
+.mark { font-weight: 700; color: var(--teal); }
+.mark a { color: inherit; text-decoration: none; }
+h1 { font-size: 1.85rem; line-height: 1.25; margin: 0.3rem 0 0.75rem; }
+.lede { color: var(--muted); margin-top: 0; }
+h2 { font-size: 1.1rem; margin-top: 1.75rem; }
+a { color: var(--teal); }
+nav { margin-top: 2.5rem; display: flex; gap: 1.25rem; }
+ul { padding-left: 1.2rem; }
