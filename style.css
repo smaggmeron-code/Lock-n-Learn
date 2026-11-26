@@ -21,3 +21,5 @@ h2 { font-size: 1.1rem; margin-top: 1.75rem; }
 a { color: var(--teal); }
 nav { margin-top: 2.5rem; display: flex; gap: 1.25rem; }
 ul { padding-left: 1.2rem; }
+
+.owner { text-align: center; font-size: 0.8rem; opacity: 0.6; margin: 1.5rem 0 1rem; }
